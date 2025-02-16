@@ -1,0 +1,56 @@
+TYPES OF CSS:
+-------------
+1. inline css -> css properties inside the tag: all the css attributes in the same tag, within "..."
+
+e.g. 
+style="background-color:"red" ;color:"black" ;font-size:50px ;font-family:___ ;text-align:center>
+DRAWBACKS: rewriting the codes again and again so the length increases, and code looks untidy.
+
+2. internal css -> stylesheet implemented in same file, inside the head tag. we use <style>...</style> inside the head tag.
+it consists of selectors and tag names.
+
+e.g.1
+ <style>
+h2{
+    background-color:crimson;
+    color:white;
+    .
+    .
+    .
+}
+</style>
+
+e.g.2
+we can also use ID names in order to implement styles.
+<style>
+#sp_id{
+    attributes and properties
+    .
+    .
+    .
+}
+</style>
+now we use this ID name whereverwe need the particular style.
+<h2 id="sp_id">This is H2</h2>
+
+e.g.3
+using a class name to implement the BOM i.e. include more than one IDs in one class and then applying a class altogether.
+inside the sytle tag, we add a class name using '.' operator.
+.spclass
+{
+    #id1{attributes and properties.
+    .
+    .
+    }
+    #id2{
+        .
+    }
+    #id_n{
+        .
+    }
+}
+then we just include the class in the tag.
+<h2 class="spclass">This is H2</h2>
+
+3. external css -> separate documents for stylesheet and html file
+
